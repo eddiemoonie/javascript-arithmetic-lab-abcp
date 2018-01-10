@@ -1,31 +1,35 @@
 function add(a, b) {
-  var number = a + b;
-  return number;
+  return a + b;
 }
 
 function multiply(a, b) {
-  var number = a * b;
-  return number;
+  return a * b;
 }
 
 function subtract(a, b) {
-  var number = a - b;
-  return number;
+  return a - b;
 }
 
 function divide(a, b) {
-  var number = a / b;
-  return number;
+  return a / b;
 }
 
 function inc(n) {
-  var a = 1;
-  var number = a + n;
-  return number;
+  return n += 1;
 }
 
 function dec(n) {
-  var a = 1;
-  var number = a - n;
-  return number;
+  return n -= 1;
+}
+
+function makeInt(n) {
+  return parseInt(n);
+}
+
+function makeInt(n) {
+  return parseInt(n, 10);
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n);
 }
